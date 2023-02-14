@@ -1,0 +1,45 @@
+# Project information
+site_name: Civic Hacking Agency documentation
+site_url: https://civichackingagency.github.io/docs/
+site_author: Civic Hacking Agency
+site_description: >-
+  Civic Hacking Agency documentation
+
+# Repository
+repo_url: https://github.com/civichackingagency/docs
+repo_name: civichackingagency/docs
+
+# Copyright
+copyright: Civic Hacking Agency
+
+# Configuration
+theme:
+  name: material
+  font:
+    text: Public Sans
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/civichackingagency
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/jWRn4tKgK8
+  generator: false
+extra_css:
+  - stylesheets/style.css
+
+# Page tree
+nav:
+  - index.md
+  - about.md
+  - "Help":
+    - "Help2":
+      - "help/requesting.md"
+      - "help/giving.md"
